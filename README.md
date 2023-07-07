@@ -73,11 +73,19 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 Nest is [MIT licensed](LICENSE).
 
 ## Generate a module
+
 ```terminal
   $ nest g mo products
 ```
 
 ## Check with Production environment variables
+
 ```terminal
   $ NODE_ENV=prod npm run start:dev
+```
+
+## HttpModule and HttpService for Nest ^8.0.0
+
+```terminl
+  $ npm i --save @nestjs/axios axios
 ```
