@@ -76,3 +76,8 @@ Nest is [MIT licensed](LICENSE).
 ```terminal
   $ nest g mo products
 ```
+
+## Check with Production environment variables
+```terminal
+  $ NODE_ENV=prod npm run start:dev
+```
