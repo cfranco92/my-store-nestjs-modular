@@ -91,6 +91,15 @@ Nest is [MIT licensed](LICENSE).
 ```
 
 ## Enviroment variables - Install nest config
+
 ```terminal
   $ npm i @nestjs/config
+```
+
+## Generate documentation with Swagger
+
+### Install library
+
+```terminal
+  $ yarn add @nestjs/swagger swagger-ui-express
 ```
