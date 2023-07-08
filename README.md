@@ -89,3 +89,8 @@ Nest is [MIT licensed](LICENSE).
 ```terminl
   $ npm i --save @nestjs/axios axios
 ```
+
+## Enviroment variables - Install nest config
+```terminal
+  $ npm i @nestjs/config
+```
