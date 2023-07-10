@@ -10,28 +10,28 @@ import {
 export class CreateProductDto {
   @IsString()
   @IsNotEmpty()
-  // @ApiProperty()
+  @ApiProperty()
   readonly name: string;
 
   @IsString()
   @IsNotEmpty()
-  // @ApiProperty()
+  @ApiProperty()
   readonly description: string;
 
   @IsNumber()
   @IsNotEmpty()
   @IsPositive()
-  // @ApiProperty()
+  @ApiProperty()
   readonly price: number;
 
   @IsNumber()
   @IsNotEmpty()
-  // @ApiProperty()
+  @ApiProperty()
   readonly stock: number;
 
   @IsUrl()
   @IsNotEmpty()
-  // @ApiProperty()
+  @ApiProperty()
   readonly image: string;
 }
 
