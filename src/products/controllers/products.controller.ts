@@ -17,8 +17,8 @@ import { Response } from 'express';
 import { CreateProductDto, UpdateProductDto } from '../dtos/products.dtos';
 
 import { ProductsService } from './../services/products.service';
-import { ParseIntPipe } from 'src/common/parse-int.pipe';
 import { ApiOperation, ApiTags } from '@nestjs/swagger';
+import { ParseIntPipe } from './../../common/parse-int.pipe';
 
 @ApiTags('products')
 @Controller('products')
