@@ -8,30 +8,30 @@ import {
 } from 'class-validator';
 
 export class CreateProductDto {
-  @ApiProperty()
   @IsString()
   @IsNotEmpty()
+  @ApiProperty()
   readonly name: string;
 
-  @ApiProperty()
   @IsString()
   @IsNotEmpty()
+  @ApiProperty()
   readonly description: string;
 
-  @ApiProperty()
   @IsNumber()
   @IsNotEmpty()
   @IsPositive()
+  @ApiProperty()
   readonly price: number;
 
-  @ApiProperty()
   @IsNumber()
   @IsNotEmpty()
+  @ApiProperty()
   readonly stock: number;
 
-  @ApiProperty()
   @IsUrl()
   @IsNotEmpty()
+  @ApiProperty()
   readonly image: string;
 }
 
