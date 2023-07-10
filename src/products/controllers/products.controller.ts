@@ -53,13 +53,12 @@ export class ProductsController {
   }
 
   @Post()
-  create(@Body() payload) {
+  create(@Body() payload: CreateProductDto) {
     // return {
     //   message: 'accion de crear',
     //   payload,
     // };
-    // return this.productsService.create(payload);
-    return { ...payload };
+    return this.productsService.create(payload);
   }
 
   @Put(':id')
