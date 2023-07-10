@@ -3,7 +3,7 @@ import { Injectable, NotFoundException } from '@nestjs/common';
 
 import { ConfigService } from '@nestjs/config';
 import { Order } from '../entities/order.entity';
-import { ProductsService } from 'src/products/services/products.service';
+import { ProductsService } from './../../products/services/products.service';
 import { User } from '../entities/user.entity';
 
 @Injectable()
