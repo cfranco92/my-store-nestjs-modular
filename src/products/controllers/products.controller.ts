@@ -58,7 +58,8 @@ export class ProductsController {
     //   message: 'accion de crear',
     //   payload,
     // };
-    return this.productsService.create(payload);
+    // return this.productsService.create(payload);
+    return { ...payload };
   }
 
   @Put(':id')
